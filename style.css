@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(43, 43, 43);
+    user-select: none;
+    background-size: 100%;
+    background: url(https://images.hdqwalls.com/download/rick-in-rick-and-morty-xs-3840x2400.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 4px;
+    padding: 4px;
+    border-radius: 5px;
+    max-width: 400px;
+    font-family: fantasy;
+    margin: 0 auto;
+}
+
+.item {
+    background-color: rgb(68, 68, 68);
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+form {
+    max-width: 100%;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    text-align: right;
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+
+.input {
+    grid-column: 1/-1;
+}
+
+.equal {
+    background-color: rgb(109, 180, 221);
+}
